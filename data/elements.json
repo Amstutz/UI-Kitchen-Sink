@@ -1,0 +1,412 @@
+{
+    "CompenentsList": {
+        "General": {
+            "Title": "General",
+            "Items": {
+                "MainElements": {
+                    "Title": "Main Page Elements",
+                    "SubItems":{
+                        "Topbar": {
+                            "Title": "Topbar",
+                            "Description": "The navbar on the very top of the ILIAS page. Changes depending on the context of the user.",
+                            "LessVariables": "@navbar-height, @navbar-margin-bottom, @navbar-inverse-color, @navbar-inverse-bg, @navbar-inverse-border, ...",
+                            "GUIClass": "Path to the ILIAS GUI-Classes rendering the topbar",
+                            "Context": "Do not reuse the topbar",
+                            "KnownUses": "The topbar is used exactly once, at the very top of the page.",
+                            "Path": "data/elements/general/main_elements/topbar.html"
+                        },
+                        "Header": {
+                            "Title": "Header",
+                            "Description": "Area to customize with own logo and name of installation",
+                            "LessVariables": "@jumbotron-bg, @jumbotron-color",
+                            "GUIClass": "None",
+                            "Context": "Do not reuse the header section",
+                            "KnownUses": "Between the topbar and the tabs.",
+                            "Path": "data/elements/general/main_elements/header.html"
+                        },
+                        "Footer": {
+                            "Title": "Footer",
+                            "Description": "The footer is displayed at the very bottom of the page",
+                            "LessVariables": "None yet",
+                            "GUIClass": "None",
+                            "Context": "Do not reuse the footer",
+                            "KnownUses": "At the bottom of the page",
+                            "Path": "data/elements/general/main_elements/footer.html"
+                        }
+                    }
+                },
+                "Grid": {
+                    "Title": "Grid",
+                    "SubItems":{
+                        "Rows": {
+                            "Title": "Rows",
+                            "Description": "Rows can be used to devide the available space into section adaptable to the size of the screen.",
+                            "LessVariables": "@grid-columns, @grid-gutter-width, @grid-float-breakpoint, ...",
+                            "GUIClass": "None",
+                            "Context": "Bootstrap rows should be used instead of tables whenever possible.",
+                            "KnownUses": "...",
+                            "Path": "data/elements/general/grid/rows.html"
+                        }
+                    }
+                },
+                "Typography": {
+                    "Title": "Typography",
+                    "SubItems":{
+                        "Headings": {
+                            "Title": "Headings",
+                            "Description": "Headings to be used in ILIAS",
+                            "LessVariables": "@font-size-h1, @font-size-h2, ...",
+                            "GUIClass": "None",
+                            "Context": "Explanation of when to use which heading",
+                            "KnownUses": "Good examples of the use of headings",
+                            "Path": "data/elements/general/typography/headings.html"
+                        },
+                        "Alignments": {
+                            "Title": "Alignments",
+                            "Description": "Alignments to be used in ILIAS",
+                            "LessVariables": "...",
+                            "GUIClass": "None",
+                            "Context": "Explanation of how to use alignments",
+                            "KnownUses": "..",
+                            "Path": "data/elements/general/typography/alignments.html"
+                        }
+                    }
+                },
+                "Images": {
+                    "Title": "Images",
+                    "SubItems":{
+                        "Icons": {
+                            "Title": "Icons",
+                            "Description": "Icons of ILIAS",
+                            "LessVariables": "To be implemented",
+                            "GUIClass": "None",
+                            "Context": "Modules and dropdowns",
+                            "KnownUses": "The following items need an icon: ...",
+                            "Path": "data/elements/general/images/icons.html"
+                        },
+                        "Thumbnails": {
+                            "Title": "Thumbnails",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": "The Topbar is used in ...",
+                            "Path": "data/elements/general/images/thumbnails.html"
+                        }
+                    }
+                },
+                "Labels": {
+                    "Title": "Labels",
+                    "SubItems":{
+                        "Rows": {
+                            "Title": "Labels",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": "The Topbar is used in ...",
+                            "Path": "data/elements/general/topbar.html"
+                        }
+                    }
+                },
+                "Badges": {
+                    "Title": "Badges",
+                    "SubItems":{
+                        "Rows": {
+                            "Title": "Badges",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": "The Topbar is used in ...",
+                            "Path": "data/elements/general/topbar.html"
+                        }
+                    }
+                },
+                "Panels": {
+                    "Title": "Panels",
+                    "SubItems":{
+                        "Rows": {
+                            "Title": "Panels",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": "The Topbar is used in ...",
+                            "Path": "data/elements/general/topbar.html"
+                        }
+                    }
+                },
+                "Modals": {
+                    "Title": "Modals",
+                    "SubItems":{
+                        "Rows": {
+                            "Title": "Base Modal",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": "The Topbar is used in ...",
+                            "Path": "data/elements/general/modals/basic_modal.html"
+                        }
+                    }
+                },
+                "Popovers": {
+                    "Title": "Popovers",
+                    "SubItems":{
+                        "Rows": {
+                            "Title": "Base Modal",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": "The Topbar is used in ...",
+                            "Path": "data/elements/general/topbar.html"
+                        }
+                    }
+                },
+                "Tooltips": {
+                    "Title": "Tooltips",
+                    "SubItems":{
+                        "Rows": {
+                            "Title": "Base Modal",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": "The Topbar is used in ...",
+                            "Path": "data/elements/general/topbar.html"
+                        }
+                    }
+                }
+            }
+        },
+        "Navigation": {
+            "Title": "Navigation",
+            "Items": {
+                "Tabs": {
+                    "Title": "Tabs",
+                    "SubItems":{
+                        "Tabs": {
+                            "Title": "Tabs type 1",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        },
+                        "NormalButton": {
+                            "Title": "Normal Button",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                },
+                "Breadcrumb": {
+                    "Title": "Breadcrumb",
+                    "SubItems":{
+                        "Tabs": {
+                            "Title": "Breadcrumb",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                }
+            }
+        },
+        "Form": {
+            "Title": "Form",
+            "Items": {
+                "Buttons": {
+                    "Title": "Buttons",
+                    "SubItems":{
+                        "GreenButton": {
+                            "Title": "Green Button",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        },
+                        "NormalButton": {
+                            "Title": "Normal Button",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                },
+                "Input": {
+                    "Title": "Input Elements",
+                    "SubItems":{
+                        "GreenButton": {
+                            "Title": "Green Button",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        },
+                        "NormalButton": {
+                            "Title": "Normal Button",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                },
+                "Alerts": {
+                    "Title": "Alerts",
+                    "SubItems":{
+                        "Success": {
+                            "Title": "Success",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        },
+                        "Info": {
+                            "Title": "Info",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        },
+                        "Warning": {
+                            "Title": "Warning",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        },
+                        "Danger": {
+                            "Title": "Danger",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                },
+                "ProgressBar": {
+                    "Title": "Progress Bar",
+                    "SubItems":{
+                        "BasicProgressBar": {
+                            "Title": "Basic Progress Bar",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                }
+            }
+        },
+        "Table": {
+            "Title": "Table",
+            "Items": {
+                "Filter": {
+                    "Title": "Filter Elements",
+                    "SubItems":{
+                        "GreenButton": {
+                            "Title": "Table Filter",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        },
+                        "NormalButton": {
+                            "Title": "Normal Button",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                },
+                "MainArea": {
+                    "Title": "Main Area",
+                    "SubItems":{
+                        "Pagination": {
+                            "Title": "Pagination",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                },
+                "Pagination": {
+                    "Title": "Pagination",
+                    "SubItems":{
+                        "Pagination": {
+                            "Title": "Pagination",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                }
+            }
+        },
+        "Charts": {
+            "Title": "Charts",
+            "Items": {
+                "Barchart": {
+                    "Title": "Barchart",
+                    "SubItems":{
+                        "GreenButton": {
+                            "Title": "Table Filter",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        },
+                        "NormalButton": {
+                            "Title": "Normal Button",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                },
+                "SpiderChart": {
+                    "Title": "SpiderChart",
+                    "SubItems":{
+                        "Pagination": {
+                            "Title": "Pagination",
+                            "Description": "Description of the Topbar Usage",
+                            "LessVariables": "SGML",
+                            "GUIClass": "SGML",
+                            "Context": "ISO 8879:1986",
+                            "KnownUses": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+<h1 id="contentTitle"><%= Title %></h1>
+<div class="panel panel-default">
+    <div id="<%= Index %>HtmlExample" class="panel-body">
+    </div>
+</div>
+<div class="panel-group" id="accordion<%= Index %>" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion<%= Index %>" href="#collapseOne<%= Index %>" aria-expanded="true" aria-controls="collapseOne">
+                    Description
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne<%= Index %>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <%= Description %>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion<%= Index %>" href="#collapseTwo<%= Index %>" aria-expanded="false" aria-controls="collapseTwo">
+                    Context
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo<%= Index %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+                <%= Context %>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion<%= Index %>" href="#collapseThree<%= Index %>" aria-expanded="false" aria-controls="collapseThree">
+                    Known Uses
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree<%= Index %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <%= KnownUses %>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion<%= Index %>" href="#collapseFour<%= Index %>" aria-expanded="false" aria-controls="collapseFour">
+                    Less Variables
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour<%= Index %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+                <%= LessVariables %>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion<%= Index %>" href="#collapseFive<%= Index %>" aria-expanded="false" aria-controls="collapseFive">
+                    GUI Class
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive<%= Index %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+                <%= GUIClass %>
+            </div>
+        </div>
+    </div>
+</div>

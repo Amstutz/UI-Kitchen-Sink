@@ -368,7 +368,7 @@
             "Title": "Charts",
             "Items": {
                 "Barchart": {
-                    "Title": "BarChart",
+                    "Title": "Bar Chart",
                     "SubItems":{
                         "GreenButton": {
                             "Title": "Bar Chart",
@@ -381,7 +381,7 @@
                     }
                 },
                 "SpiderChart": {
-                    "Title": "SpiderChart",
+                    "Title": "Spider Chart",
                     "SubItems":{
                         "Pagination": {
                             "Title": "Spider Chart",

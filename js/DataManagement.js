@@ -44,7 +44,9 @@ DataManagement = function(){
                 LessVariables: value.LessVariables,
                 GUIClass: value.GUIClass,
                 Context: value.Context,
-                KnownUses: value.KnownUses
+                KnownUses: value.KnownUses,
+                Relations: value.Relations,
+
             });
             $("#ilMainContent").append(entry).find("#"+index+"HtmlExample").load(value.Path);
         });

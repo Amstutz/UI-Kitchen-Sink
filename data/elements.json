@@ -147,7 +147,8 @@
                             "GUIClass": "...",
                             "Context": "...",
                             "KnownUses": "...",
-                            "Path": "data/elements/general/modals/basic_modal.html"
+                            "Path": "data/elements/general/modals/basic_modal.html",
+                            "Relations": "Form -> Buttons, General -> Typography -> Base Font, General -> Header, General -> Images -> Icons"
                         }
                     }
 
@@ -227,21 +228,13 @@
                         },
                         "GreenButton": {
                             "Title": "Green Button",
-                            "Description": "Some Description",
-                            "LessVariables": "...",
-                            "GUIClass": "...",
-                            "Context": "...",
-                            "KnownUses": "data/elements/navigation/breadcrumb/breadcrumb.html",
-                            "Path": "data/elements/form/buttons/green_button.html"
-                        },
-                        "ButtonState": {
-                            "Title": "Button State",
-                            "Description": "Some Description",
-                            "LessVariables": "...",
-                            "GUIClass": "...",
-                            "Context": "...",
-                            "KnownUses": "data/elements/navigation/breadcrumb/breadcrumb.html",
-                            "Path": "data/elements/form/buttons/button_state.html"
+                            "Description": "A description about the 'Green Button', it's function and other element it might contain (such as fonts in this easy case). Also things to consider when this element is used.",
+                            "LessVariables": "@btn-success-bg, @btn-success-border, @btn-success-color, @border-radius-large",
+                            "GUIClass": "Useful for developers, GUI-Class that renders this button (if available).",
+                            "Context": "A clear description of the context in which this button is allowed to be used and where it is not to be used.",
+                            "KnownUses": "Some examples where a good use of the element can be found in ILIAS.",
+                            "Path": "data/elements/form/buttons/green_button.html",
+                            "Relations": "Typography -> Base Font"
                         },
                         "ButtonGroups": {
                             "Title": "Button Groups",
@@ -390,6 +383,26 @@
                             "GUIClass": "...",
                             "Context": "...",
                             "KnownUses": "..."
+                        }
+                    }
+                }
+            }
+        },
+        "Proposals": {
+            "Title": "Proposals",
+            "Items": {
+                "ilias51": {
+                    "Title": "ILIAS 5.1",
+                    "SubItems":{
+                        "GreenButton": {
+                            "Title": "New Calendar Layout",
+                            "Description": "Calendar Description of the new calender design. Libraries used, relations etc...",
+                            "LessVariables": "Planned less variables to be used.",
+                            "GUIClass": "GUI-Class responsible for rendering this element.",
+                            "Context": "Context in which other developers can use this new calendar",
+                            "KnownUses": "None, since new",
+                            "Path": "data/elements/proposals/ilias51/calendar.html",
+                            "Relations": "Relations to existing UI-Elements"
                         }
                     }
                 }
